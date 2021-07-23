@@ -1,0 +1,41 @@
+.body{
+    background-color: white;
+    height: 100vh;
+    overflow-x: hidden;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 923px;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans_container{
+    background-color: hsl(31, 77%, 52%);
+    width: 33%;
+    height: 500px;
+
+}
+
+.suvs_container{
+    background-color: hsl(184, 100%, 22%);
+    width: 33%;
+    height: 500px;
+}
+
+.luxury_container{
+    background-color: hsl(179, 100%, 13%)
+    width: 33%;
+    height: 500px;
+}
